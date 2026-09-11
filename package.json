@@ -1,0 +1,20 @@
+{
+  "name": "ai-fitness-app",
+  "version": "1.0.0",
+  "description": "Deterministic AI Fitness & Nutrition Recommendation Platform",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/*.test.js",
+    "test:flow": "node scripts/test_full_flow.js",
+    "test:system": "node scripts/verify_full_system.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}

@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+client/node_modules/
+/.pnp
+.pnp.js
+
+# Production & Build Outputs
+dist/
+client/dist/
+build/
+.vite/
+
+# Local Database & Dynamic Runtime Storage
+src/db/local_db.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Codebase Quality Scanner Artifacts
+.desloppify/
+scorecard.png
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Reference Specs, Context & Visual Design Mockups
+context.md
+mockup1.avif
+mockup1.png
+mockup*
+*.avif
+
+# Editor & OS Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Python Caches & Virtual Envs
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+.venv/
+
+# Coverage & Test Output
+coverage/
+.nyc_output/
+*.tmp
+*.temp
